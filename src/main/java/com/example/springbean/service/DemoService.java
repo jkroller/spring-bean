@@ -1,7 +1,9 @@
 package com.example.springbean.service;
 
 import com.example.springbean.model.ProfileModel;
+import org.springframework.stereotype.Service;
 
+@Service
 public class DemoService {
 
     private ProfileModel profileModel;

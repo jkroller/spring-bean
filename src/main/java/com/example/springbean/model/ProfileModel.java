@@ -5,6 +5,10 @@ public class ProfileModel {
     private String Name;
     private String Age;
 
+    public ProfileModel(String name) {
+        Name = name;
+    }
+
     public String getName() {
         return Name;
     }
